@@ -1,0 +1,9 @@
+langchain_openai
+langchain_core
+python-dotenv
+streamlit
+langchain_community
+langserve
+youtube_transcript_api
+langchain>=0.1.16
+faiss-cpu
