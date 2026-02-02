@@ -31,9 +31,9 @@ The app uses **RAG (Retrieval-Augmented Generation)** with **local LLMs via Olla
 ## 📁 Project Structure
 
 ChatBot/
-│── app.py # Experiment
-│── summariseYT.py # RAG chatbot logic
-│── main.py # Streamlit app entry point
-│── requirements.txt # Python dependencies
-│── .gitignore
-│── README.md
+├── app.py # Experiment
+├── summariseYT.py # RAG chatbot logic
+├── main.py # Streamlit app entry point
+├── requirements.txt # Python dependencies
+├── .gitignore
+└── README.md
