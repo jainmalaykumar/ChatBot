@@ -35,4 +35,5 @@ ChatBot/
 - summariseYT.py # RAG chatbot logic
 - main.py # Streamlit app entry point
 - requirements.txt # Python dependencies
+- .gitignore
 - README.md
