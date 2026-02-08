@@ -33,7 +33,7 @@ import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import OllamaEmbeddings
+from langchain_ollama import OllamaEmbeddings
 from langchain_community.vectorstores import FAISS
 
 from langchain_core.prompts import PromptTemplate
@@ -171,7 +171,7 @@ Question:
     )
 
     # ---- LLM ----
-    llm = Ollama(model="phi")
+    llm = Ollama(model="mistral")
 
     # ---- Output Parser ----
     parser = StrOutputParser()
